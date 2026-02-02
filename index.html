@@ -1,1 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trip Planner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f7f9;
+      margin: 0;
+      padding: 16px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      margin-bottom: 12px;
+    }
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+    a {
+      text-decoration: none;
+      background: white;
+      padding: 16px;
+      border-radius: 14px;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    }
+    a:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Family Trip Planner</h1>
+    <p>Select a section:</p>
 
+    <div class="buttons">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="itinerary.html">Itinerary</a>
+      <a href="cost.html">Cost</a>
+      <a href="people.html">People</a>
+      <a href="places.html">Places</a>
+    </div>
+  </div>
+</body>
+</html>
